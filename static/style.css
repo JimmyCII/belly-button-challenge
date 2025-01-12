@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background-color: #f2eefb; /* Lightest Purple */
+}
+
+.bg-light {
+    background-color: #e2d8f0 !important; /* Medium Purple */
+    color: #343a40; /* Dark text color to ensure legibility */
+  }
+
+ .card-header{
+     background-color: #d0c2e8;  /* Dark Purple */
+     color: #ffffff; /* Light text color to ensure legibility */
+ }
+
+  h1 {
+  color: #343a40;
+  }
+
+.card-title {
+  font-size: 1.25rem; /* Slightly larger font for card titles */
+  color: #495057;
+}
+
+#sample-metadata p{
+  margin-bottom: 0.25rem;
+  color: #495057; /* Makes all paragraphs readable on a purple background */
+}
+
+  #selDataset {
+    color: #495057; /* Makes sure that selected dropdown is readable*/
+}
+
+  #bar, #bubble {
+    border: 2px solid #d0c2e8; /* Dark purple border */
+    background-color: #f2eefb; /* Lightest purple fill */
+    width: 100%; /* Make the charts take up all of the parent divs width*/
+    display: flex; /* Use flex to make chart fill space*/
+  }
+  
+  .card-body {
+      padding: 1rem; /* this ensures the chart does not take up 100% of the parents height, giving it a margin. This can be adjusted to what looks best*/
+      display: flex; /* Use flex to make chart fill space*/
+      flex-direction: column; /* Use flex to make chart fill space*/
+  }
+
+  .card{
+      border-color: #d0c2e8;
+  }
+ .js-plotly-plot {
+      flex: 1; /*Use flex to make the chart fill its parent*/
+    min-height: 100%; /* Force the chart to use its container's height*/
+  }
